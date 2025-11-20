@@ -1,0 +1,62 @@
+body {
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin-top: 30px;
+}
+
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.card-header {
+    background-color: #0d6efd;
+    color: white;
+    font-weight: bold;
+}
+
+.table-container {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.result-item {
+    padding: 8px 0;
+    border-bottom: 1px solid #e9ecef;
+    font-size: 1.1rem;
+}
+
+.result-item:last-child {
+    border-bottom: none;
+}
+
+.result-item:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+.result-item:hover {
+    background-color: #e9ecef;
+    transition: background-color 0.2s ease;
+}
+
+#tablaContainer {
+    display: none;
+}
+
+.alert {
+    margin-top: 15px;
+}
+
+.btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Tablas de Multiplicar</title>
+    <link href="public/vendor/bootstrap-5.3.8-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="public/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-header text-center">
+                <h2>Generador de Tablas de Multiplicar</h2>
+            </div>
+            <div class="card-body">
+                <div class="input-group mb-3">
+                    <span class="input-group-text">Ingresa un número:</span>
+                    <input type="number" class="form-control" id="numero" placeholder="Ejemplo: 1" autofocus>
+                    <button class="btn btn-primary" id="generarBtn">Generar Tabla</button>
+                </div>
+                
+                <!-- Mostrar advertencias -->
+                <div id="alertArea"></div>
+                
+                <!-- Mostrar la tabla -->
+                <div id="tablaContainer" class="mt-4">
+                    <h5 class="mb-3">Tabla de multiplicar:</h5>
+                    <div id="tablaResultados" class="table-container">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="public/vendor/bootstrap.bundle.min.js"></script>
+    <script src="public/js/app.js"></script>
+</body>
+</html>
